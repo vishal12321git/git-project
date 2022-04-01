@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	html {
+		background-color: greenyellow;
+	}
+	body > * , main > * {
+		outline: 2px solid antiquewhite;
+		margin: 10px;
+		padding: 20px;
+	} nav { background-color: lightsteelblue; }
+	header  {
+		text-align: center;
+		background-color: purple;
+		color: aqua;
+		border: solid blue;
+		border-radius: 350px;
+		padding: 0px;
+	} main { background-color: grey; }
+	body, article, main, nav {
+		display: flex;
+		flex-direction: row;
+	}
+	body , article {
+		flex-direction: column;
+		background-color: blueviolet;
+		margin: 5px;
+	}
+	nav {
+		display: flex;
+		padding: 5px 2px ;
+	}
+	 nav a {flex: 1 0; margin: 0 5px; background-color: white; color: purple; text-align: center; text-decoration: none; border: 1px solid blue;}
+	 article {
+	 	flex:  33%;
+	 	height: 300px;
+	 }
+</style>
+</head>
+<body>
+	<header><h1 style="font-family: cursive ;">How to design web pages</h1></header>
+    <main>
+<article>
+
+		<h1>First article</h1>
+		<p>Bye</p>
+	</article>
+	<article>
+		<h1>Second article</h1>
+		<p>bolo</p>
+	</article>
+	<article>
+		<nav>
+	  <a href="#1">Home</a>
+      <a href="#2">About</a>
+      <a href="#3">Blog</a>
+      
+      <a href="#5">Contact Us</a>
+		</nav>
+		<br>
+		<button>click here</button>
+	</article>
+	
+</main>
+</body>
+</html>
